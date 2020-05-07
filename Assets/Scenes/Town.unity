@@ -317,16 +317,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lines:
-  - n-Girl
-  - Please Help
-  - n-Player
-  - Is everything okay
-  - n-Girl
-  - Nope
-  - Shit sucks
-  - n-Player
-  - 'Dont worry '
-  - Ill do something
+  - n-Maureen
+  - Hi Sean
+  - n-Sean
+  - This shows sucks. They are all dumb
+  - n-Maureen
+  - Shut up
+  - You are dumb
+  - n-Sean
+  - Thanks
+  - You are very nice
   isPerson: 1
 --- !u!61 &469977906
 BoxCollider2D:
@@ -459,7 +459,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lines:
-  - Welcome To Town
+  - LOOK AT THIS THING I DID
   isPerson: 0
 --- !u!61 &1127133296
 BoxCollider2D:

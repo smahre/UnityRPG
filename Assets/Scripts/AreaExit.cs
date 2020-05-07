@@ -29,6 +29,7 @@ public class AreaExit : MonoBehaviour
             if (waitToLoad <= 0 ) 
             {
                 shouldLoadAfterFade = false;
+                GameManager.instance.fadingBetweenAreas = true;
                 SceneManager.LoadScene(areaToLoad);
             
             }
