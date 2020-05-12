@@ -3911,6 +3911,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 4729110940719538751}
+        m_MethodName: OpenStatus
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!1 &2117326690
@@ -4117,7 +4128,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 266.6, y: 93.4}
+  m_SizeDelta: {x: 511.4, y: 93.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1013962553244327664
 CanvasRenderer:
@@ -4276,7 +4287,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 6518990788837563464}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 4729110940719538751}
+        m_MethodName: StatusChar
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!1 &486386436279424595
@@ -4834,6 +4856,21 @@ MonoBehaviour:
   - {fileID: 1945760550}
   - {fileID: 1547774572}
   - {fileID: 1433183295}
+  statusButtons:
+  - {fileID: 1476480825918641968}
+  - {fileID: 131633525987161844}
+  - {fileID: 2989484778267816795}
+  statusName: {fileID: 7229530804085211357}
+  statusHP: {fileID: 7089821861332283114}
+  statusMP: {fileID: 5591291593599571027}
+  statusStrength: {fileID: 243242587331245505}
+  statusDefence: {fileID: 4189085915242478370}
+  statusWeaponEquipped: {fileID: 7214788910021136173}
+  statusWeaponPower: {fileID: 5784304472566019972}
+  statusArmorEquipped: {fileID: 3098540130018408219}
+  statusArmorPower: {fileID: 5810381496414599780}
+  statusExp: {fileID: 7419025754793927073}
+  statusImage: {fileID: 3249608185553091327}
 --- !u!1 &1476480825918641968
 GameObject:
   m_ObjectHideFlags: 0
@@ -4949,7 +4986,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2128872688348772626}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 4729110940719538751}
+        m_MethodName: StatusChar
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!1 &2892583385949423692
@@ -5146,7 +5194,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 377677118986353603}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 4729110940719538751}
+        m_MethodName: StatusChar
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!1 &3130272046201222169
@@ -5332,7 +5391,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Equipped Armor:'
+  m_Text: None
 --- !u!1 &3214718030566567551
 GameObject:
   m_ObjectHideFlags: 0
@@ -5881,7 +5940,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 216.7, y: 75.3}
+  m_SizeDelta: {x: 475.9, y: 78.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5321700201855893577
 CanvasRenderer:
@@ -6340,7 +6399,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 271.1, y: 93.4}
+  m_SizeDelta: {x: 511.4, y: 93.4}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &9159147343325469292
 CanvasRenderer:
@@ -6577,7 +6636,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 314.1, y: 95.7}
+  m_SizeDelta: {x: 475.9, y: 95.7}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &747763302553129584
 CanvasRenderer:
@@ -7012,7 +7071,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Equipped Weapon:'
+  m_Text: None
 --- !u!1 &8735355988501597277
 GameObject:
   m_ObjectHideFlags: 0
