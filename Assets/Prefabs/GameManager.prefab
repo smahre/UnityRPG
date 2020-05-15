@@ -114,6 +114,55 @@ MonoBehaviour:
   gameMenuOpen: 0
   dialogActive: 0
   fadingBetweenAreas: 0
+  itemsHeld:
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Health Potion
+  - 
+  - 
+  - 
+  - Leather Armor
+  - 
+  - 
+  - 
+  - 
+  - Mana Potion
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Wooden Sword
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Iron Sword
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Iron Armor
+  - 
+  - 
+  - 
+  numberOfItems: 00000000000000000000000000000000000000000000000000000000010000000000000000000000000000000c00000000000000000000000000000000000000050000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000009000000000000000000000000000000000000000000000002000000000000000000000000000000
+  referenceItems:
+  - {fileID: 3539281535964554982, guid: 7d288d81e4d4a44158cd9e63894878b8, type: 3}
+  - {fileID: 2082568001184187197, guid: d4534344be0214acda5ed5e4e36b604e, type: 3}
+  - {fileID: 8322445706722921612, guid: 44c185dbeaea54ff394ed1c92e106cf9, type: 3}
+  - {fileID: 799541815835915865, guid: c1e0f30a9a1bb4e81a926caf43437f01, type: 3}
+  - {fileID: 3351643160447436496, guid: af5d05960abf64136b3223663122e52e, type: 3}
+  - {fileID: 7676618996219350875, guid: b39da421a7e8047f092f27f2253256bc, type: 3}
 --- !u!1 &3930931678000485883
 GameObject:
   m_ObjectHideFlags: 0
