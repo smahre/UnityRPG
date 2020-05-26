@@ -59,9 +59,7 @@ public class PlayerController : MonoBehaviour
                 myAnim.SetFloat("lastMoveY", Input.GetAxisRaw("Vertical"));
             }
         }
-
         transform.position = new Vector3(Mathf.Clamp(transform.position.x, bottomLeftLimit.x, topRightLimit.x), Mathf.Clamp(transform.position.y, bottomLeftLimit.y, topRightLimit.y), transform.position.z);
-
 
     }
 

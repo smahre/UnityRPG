@@ -18,10 +18,18 @@ public class CameraController : MonoBehaviour
         target = FindObjectOfType<PlayerController>().transform;
 
         halfHeight = Camera.main.orthographicSize;
+        print("halfHeight");
+        print(halfHeight);
         halfWidth = halfHeight * Camera.main.aspect;
+        print("halfWidth");
+        print(halfWidth);
 
         bottomLeftLimit = theMap.localBounds.min + new Vector3(halfWidth, halfHeight, 0f);
         topRightLimit = theMap.localBounds.max + new Vector3(-halfWidth, -halfHeight, 0f);
+        print("botLeft");
+        print(bottomLeftLimit);
+        print("topRight");
+        print(topRightLimit);
         //topRightLimit = theMap.localBounds.max;
 
         PlayerController.instance.setBounds(theMap.localBounds.min, theMap.localBounds.max);
