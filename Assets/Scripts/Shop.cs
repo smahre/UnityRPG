@@ -146,6 +146,6 @@ public class Shop : MonoBehaviour
             GameManager.instance.RemoveItem(selectedItem.itemName);
         }
         goldText.text = GameManager.instance.currentGold.ToString() + "g";
-        ShowSellItems();
+        ShowSellItems(); 
     }
 }
